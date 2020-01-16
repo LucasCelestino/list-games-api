@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.margin-container
+{
+    width: 100%;
+    margin: auto;
+}
+
+.padding-container
+{
+    padding: 30px 0;
+}
+
+.header-menu
+{
+    /* background-color: #202020; */
+    background-color: #2a2a2a;
+    padding: 15px 0;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.author
+{
+    display: flex;
+    align-items: center;
+}
+
+.author p
+{
+    position:absolute;
+    left: 110px;
+}
+
+.header-menu input
+{
+    border: none;
+    height: 35px;
+    width: 380px;
+    padding: 0 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #000 !important;
+}
+
+.search-btn
+{
+    background-color: rgb(206, 47, 47);
+    float: right;
+    padding: 1px 5px;
+    border-top-right-radius: 5px;
+    height: 33px;
+    width: 35px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-btn a i
+{
+    font-size: 25px;
+    color: #FFF;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.section-games
+{
+    background-color: #263241;
+}
+
+.game-item
+{
+    max-width: 250px;
+    margin: 0 20px 40px 20px;
+}
+
+.flex-games-itens
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-infos
+{
+    margin-top: -4px;
+    background-color: #131313;
+}
+
+.game-infos p:first-child
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.game-infos p:last-child
+{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.game-genero
+{
+    margin-top: 5px;
+    background-color: rgb(197, 39, 39);
+    border-radius: 5px;
+}
+
+.game-genero p
+{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.footer-site
+{
+    background-color: #2a2a2a;
+    padding: 15px 0;
+}
+
+.paginacao-div
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paginacao-div a
+{
+    margin: 0 10px;
+    background-color: rgb(54, 54, 54);
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.paginacao-div a:hover
+{
+    background-color: rgb(22, 22, 22);
+}
+
+.search-btn button
+{
+    background-color: transparent;
+    border:none;
+}
+
+.search-btn button i
+{
+    font-size: 24px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
